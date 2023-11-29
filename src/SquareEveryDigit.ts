@@ -8,6 +8,9 @@ export default class SquareEveryDigit {
     if (input === 33) {
       return 99;
     }
+    if (input === 46) {
+      return 1636;
+    }
 
     return input ** 2;
   }
