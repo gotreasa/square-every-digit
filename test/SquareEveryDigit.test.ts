@@ -1,8 +1,7 @@
-import Dummy from '../src/SquareEveryDigit';
+import SquareEveryDigit from '../src/SquareEveryDigit';
 
-describe('Check the Dummy class is working', () => {
-  test('should have a class object valid set to true', () => {
-    const dummy = new Dummy();
-    expect(dummy.valid).toBe(true);
+describe('Square Every Digit', () => {
+  test('should return 1 for input 1', () => {
+    expect(SquareEveryDigit.squareDigits(1)).toBe(1);
   });
 });

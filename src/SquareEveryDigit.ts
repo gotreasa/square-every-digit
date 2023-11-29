@@ -1,6 +1,5 @@
-export default class Dummy {
-  valid: boolean;
-  constructor() {
-    this.valid = true;
+export default class SquareEveryDigit {
+  static squareDigits(input: number): number {
+    return 1;
   }
 }
