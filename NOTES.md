@@ -15,5 +15,5 @@
 - ✅ should return 91 for input 31
 - ✅ should return 99 for input 33
 - ✅ should return 1636 for input 46
-- 🚧 should return 811181 for input 9119
-- ⚠ should return 493625 for input 765
+- ✅ should return 811181 for input 9119
+- 🚧 should return 493625 for input 765

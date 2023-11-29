@@ -28,4 +28,8 @@ describe('Square Every Digit', () => {
   test('should return 811181 for input 9119', () => {
     expect(SquareEveryDigit.squareDigits(9119)).toBe(811181);
   });
+
+  test('should return 493625 for input 765', () => {
+    expect(SquareEveryDigit.squareDigits(765)).toBe(493625);
+  });
 });
