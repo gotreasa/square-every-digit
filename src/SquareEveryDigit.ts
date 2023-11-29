@@ -1,6 +1,6 @@
 const squareIndividualDigits = (input: number): number[] => {
   const digits: string[] = input.toString().split('');
-  const squareDigits = digits.map((digit: string) => {
+  const squareDigits: number[] = digits.map((digit: string) => {
     return parseInt(digit, 10) ** 2;
   });
 
