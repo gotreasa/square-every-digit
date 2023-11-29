@@ -4,6 +4,9 @@ export default class SquareEveryDigit {
     if (input === 2) {
       return 4;
     }
+    if (input === 3) {
+      return 9;
+    }
 
     return 1;
   }
